@@ -1,10 +1,10 @@
 <template>
-  <div class="container h-100 mt-1 mb-0">
+  <div class="container h-100 mt-3 mb-5">
     <div class="row outline mb-0">
       <div class="col-md-3 bg-grey outline nb-left" style="border-bottom:none">
         <div class="row ml-n3">
           <div class="col-md-12 pt-2 pb-2 d-flex flex-column align-items-center text-center">
-            <div class="square mb-3"></div>
+            <div class="triangle mb-3"></div>
             <h5>{{ name }}</h5>
           </div>
         </div>
@@ -72,7 +72,6 @@
             </div>
           </div>
         </div>
-
       </div>
       <div class="col-md-9 pl-4 pt-1 pr-2">
         <div class="row d-block">
@@ -148,9 +147,6 @@ p {
 .experience-item {
   margin-bottom: 20px;
 }
-body,html {
-  height:100%;
-}
 * {
   font-family: "Open Sans", sans-serif;
 }
@@ -168,10 +164,12 @@ h4, h5 {
 .thin {
   font-weight: 350;
 }
-.square {
-  /* width: 100px;
+.square{
+  width: 100px;
   height: 100px;
-  background-color: var(--main-color); */
+  background-color: var(--main-color);
+}
+.triangle {
   width: 0; 
   height: 0; 
   border-top: 100px solid transparent;  
