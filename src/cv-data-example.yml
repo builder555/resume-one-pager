@@ -1,0 +1,142 @@
+name: John Doe, B.Sc, M.Sc
+email: john.doe@pm.me
+phone: 123-456-7890
+address: New York, USA
+
+highlights:
+  - Excellent REST API skills
+  - Full stack developer extraordinaire
+  - Proficient in software integration and testing.
+  - Known for getting things done on time and on budget.
+
+experience:
+  -
+    company: Example Inc.
+    title: Product Designer
+    location: Remote
+    dates: 2022.01 - present
+    details: 
+      - Developed a disaster recovery system to improve system reliability.
+      - Conducted regular security audits and made recommendations for improvements.
+      - Improved system performance by optimizing data storage and retrieval processes.
+      - Built and maintained a server infrastructure for critical systems.
+  -
+    company: ABC Company
+    title: Software Developer
+    location: New York, NY	
+    dates: 2019.01 - 2022.01
+    details:
+      - Created an API to integrate third-party video management systems.
+      - Implemented a content management system to allow users to manage video content.
+      - Automated the process of uploading and transcoding videos to improve efficiency.
+      - Developed a live streaming platform to allow users to broadcast video content.
+  -
+    company: XYZ Inc.
+    location: New York, NY
+    dates: 2018.01 - 2019.01
+    title: Product QA Engineer
+    details:
+      - Developed a real-time tracking system for deliveries to improve accuracy.
+      - Automated the process of sending delivery notifications to customers.
+      - Improved data privacy and security by implementing encryption for sensitive information.
+      - Designed and implemented a new user interface for the delivery system to improve usability.
+  -
+    company: Tech Corp
+    location: New York, NY
+    dates: 2015.01 - 2018.01
+    title: ML Tester
+    details:
+      - Implemented machine learning algorithms to automatically categorize video content.
+      - Improved the scalability of the video tagging and distribution system to support millions of users.
+      - Designed and implemented a mobile app for the video streaming service to increase accessibility.
+      - Conducted regular performance evaluations and provided feedback to team members to help them grow.
+  -
+    company: Data Science Co.
+    location: San Francisco, CA
+    dates: 2013.07 - 2015.01
+    title: Data Scientist
+    details:
+      - Developed predictive models using deep learning techniques to improve customer engagement and increase sales.
+      - Collaborated with product teams to develop personalized recommendations and improve the overall user experience.
+      - Conducted regular data analysis and provided insights to business teams to support data-driven decision making.
+      - Mentored junior data scientists and helped them grow in their roles.
+  -
+    company: Innovate Inc.
+    location: Seattle, WA
+    dates: 2020.04 - 2013.06 
+    title: Machine Learning Engineer
+    details:
+      - Developed computer vision algorithms to automatically detect and classify objects in images and videos.
+      - Designed and implemented a recommendation system using deep learning techniques to improve customer engagement.
+      - Improved the efficiency and scalability of machine learning models by optimizing the algorithms and infrastructure.
+      - Collaborated with cross-functional teams to integrate machine learning models into production systems.
+
+skills:
+  -
+    name: Ansible
+    level: 0.68
+  -
+    name: Apache Cassandra
+    level: 0.75
+  -
+    name: AWS Lambda
+    level: 0.72
+  -
+    name: Chef
+    level: 0.60
+  -
+    name: CloudFormation
+    level: 0.65
+  -
+    name: Docker Compose
+    level: 0.77
+  -
+    name: Go
+    level: 0.55
+  -
+    name: GraphQL
+    level: 0.78
+  -
+    name: Kubernetes
+    level: 0.80
+  -
+    name: Load Balancing
+    level: 0.70
+  -
+    name: Microsoft Azure
+    level: 0.68
+  -
+    name: PostgreSQL
+    level: 0.75
+  -
+    name: Redis
+    level: 0.68
+  -
+    name: Ruby on Rails
+    level: 0.70
+  -
+    name: Terraform
+    level: 0.75
+  -
+    name: Unix Shell Scripting
+    level: 0.75
+  -
+    name: Varnish
+    level: 0.60
+  -
+    name: Webpack
+    level: 0.75
+  -
+    name: YAML
+    level: 0.70
+
+languages:
+  - 
+    name: English
+    level: 1.00
+  - 
+    name: Mandarin
+    level: 1.00
+  - 
+    name: Portuguese
+    level: 0.50
