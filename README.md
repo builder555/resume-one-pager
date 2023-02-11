@@ -1,6 +1,8 @@
-# cv
+# Resume Template
 
-## Project setup
+Modify your data in `src/cv-data-example.yml` as needed.
+
+### Setup
 ```
 yarn install
 ```
@@ -15,10 +17,6 @@ yarn serve
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+### Example Resume
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](./cv-example.png)
