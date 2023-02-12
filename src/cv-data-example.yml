@@ -56,9 +56,9 @@ experience:
     dates: 2013.07 - 2015.01
     title: Data Scientist
     details:
-      - Developed predictive models using deep learning techniques to improve customer engagement and increase sales.
-      - Collaborated with product teams to develop personalized recommendations and improve the overall user experience.
-      - Conducted regular data analysis and provided insights to business teams to support data-driven decision making.
+      - Developed predictive models to improve customer engagement and increase sales.
+      - Collaborated with product teams to develop personalized recommendations and improve UX.
+      - Conducted regular data analysis to support data-driven decision making.
       - Mentored junior data scientists and helped them grow in their roles.
   -
     company: Innovate Inc.
@@ -67,9 +67,9 @@ experience:
     title: Machine Learning Engineer
     details:
       - Developed computer vision algorithms to automatically detect and classify objects in images and videos.
-      - Designed and implemented a recommendation system using deep learning techniques to improve customer engagement.
-      - Improved the efficiency and scalability of machine learning models by optimizing the algorithms and infrastructure.
-      - Collaborated with cross-functional teams to integrate machine learning models into production systems.
+      - Designed and implemented a recommendation system to improve customer engagement.
+      - Improved the efficiency and scalability of ML models by optimizing the algorithms and infrastructure.
+      - Collaborated with cross-functional teams to integrate ML models into production systems.
 
 skills:
   -
