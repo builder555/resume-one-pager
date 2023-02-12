@@ -76,30 +76,32 @@
       <div class="col-md-9 pl-4 pt-1 pr-2">
         <div class="row d-block">
           <h4>Highlights</h4>
-          <p
-            v-for="highlight in highlights"
-            :key="highlight"
-          >{{highlight}}</p>
+          <div class="col-md-12">
+            <p
+              v-for="highlight in highlights"
+              :key="highlight"
+            >{{highlight}}</p>
+          </div>
         </div>
         <div class="row pb-3"></div>
         <div class="row">
           <div class="row m-0"><h4>Experience</h4></div>
-          <span
+          <div
             v-for="item in experience"
               :key="item"
-              class="experience-item"
+              class="col-md-12 mb-3"
           >
             <div class="row">
               <div class="col-5 blue"><strong>{{ item.company }}</strong></div> 
               <div class="col-4"><strong>{{ item.title }}</strong></div>
-              <div class="col-3"><strong>{{ item.dates }}</strong></div>
+              <div class="col-3 text-right pr-4"><strong>{{ item.dates }}</strong></div>
             </div>
             <div class="row m-0">
               <p class="col-12 p-0" v-for="detail in item.details" :key="detail">
                 {{ detail }}
               </p>
             </div>
-          </span>
+          </div>
         </div>
       </div>
     </div>
@@ -143,9 +145,6 @@ p {
   margin-top: 3px;
   margin-bottom:0;
   clear:both;
-}
-.experience-item {
-  margin-bottom: 20px;
 }
 * {
   font-family: "Open Sans", sans-serif;
