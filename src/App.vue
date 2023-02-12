@@ -1,5 +1,5 @@
 <template>
-  <div class="container h-100 mt-3 mb-5">
+  <div class="container h-100 mt-2 mb-5">
     <div class="row outline mb-0">
       <div class="col-md-3 bg-grey outline nb-left" style="border-bottom:none">
         <div class="row ml-n3">
@@ -12,15 +12,15 @@
           <div class="col-12 text-center pt-2"><h5 class="text-center">CONTACT</h5></div>
         </div>
         <div class="row outline ml-n3 nb-right">
-          <div class="col-12 pl-2 py-2 pr-0 bg-white"><i class="far fa-envelope mr-1"></i> 
+          <div class="col-12 pl-2 py-1 pr-0 bg-white"><i class="far fa-envelope mr-1"></i> 
             <a :href="`mailto:${email}`">{{ email }}</a>
           </div>
         </div>
         <div class="row outline ml-n3 nb-right">
-          <div class="col-12 pl-2 py-2 pr-0 bg-white"><i class="fas fa-phone mr-1"></i> {{ phone }}</div>
+          <div class="col-12 pl-2 py-1 pr-0 bg-white"><i class="fas fa-phone mr-1"></i> {{ phone }}</div>
         </div>
         <div class="row outline ml-n3 nb-right">
-          <div class="col-12 pl-2 py-2 pr-0 bg-white"><i class="far fa-address-card mr-1"></i> {{ address }}</div>
+          <div class="col-12 pl-2 py-1 pr-0 bg-white"><i class="far fa-address-card mr-1"></i> {{ address }}</div>
         </div>
         <div class="row outline ml-n3 nb-right">
           <div class="col-12 text-center pt-2"><h5 class="text-center">SKILLS</h5></div>
@@ -44,6 +44,26 @@
                 class="text-left pl-2 pt-0">
                 {{ skill.name }}
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="row outline ml-n3 nb-right">
+          <div class="col-12 text-center pt-2"><h5 class="text-center">EDUCATION</h5></div>
+        </div>
+        <div
+          class="row ml-n3 outline nb-right " style="border-bottom:none"
+        >
+          <div
+            v-for="school in education"
+            :key="school"
+            class="col-12 px-2 py-0 bg-white mt-1 skill d-flex justify-content-between"
+          >
+            <div>
+              <p>
+                <span class="blue"><strong>{{ school.name }}</strong></span>
+                <span class="small"> ({{ school.location }})</span>
+              </p>
+              <p><strong>{{ school.date }}</strong> - {{ school.degree }}</p>
             </div>
           </div>
         </div>

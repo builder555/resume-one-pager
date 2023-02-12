@@ -130,6 +130,18 @@ skills:
     name: YAML
     level: 0.70
 
+education:
+  -
+    name: Harvard University
+    location: Cambridge
+    date: 2013
+    degree: B.A Economics
+  -
+    name: Stanford University
+    location: Stanford
+    date: 2017
+    degree: M.S Computer Science
+
 languages:
   - 
     name: English
